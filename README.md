@@ -1,6 +1,6 @@
 # PVO Novi Sad - Graphic Application
 
-## Overview
+## Overview - 2D
 
 Develop a graphical application to manage the Anti-Air Defense Station of Novi Sad. The application should include the following elements:
 
@@ -15,11 +15,53 @@ Develop a graphical application to manage the Anti-Air Defense Station of Novi S
 - **Self-Destruction:** Pressing the X key activates the self-destruction of the current vehicle. The vehicle is also considered destroyed if it goes outside the map.
 - Include your name, surname, and index in any corner of the screen.
 
+## Overview - 3D
+
+This graphical application simulates an Anti-Air Defense Station in a 3D environment. Below are the key features and instructions:
+
+### Features
+
+- **Student Information:** Displayed as a transparent texture in one corner of the screen, showing index, name, and surname.
+- **Perspective Projection:** Initial setup with arbitrary parameters, ensuring the entire scene is visible.
+- **Depth Testing:** Activated for accurate rendering.
+- **Back-face Culling:** Enabled for efficient rendering.
+- **Phong Lighting Model:** Implemented for realistic lighting effects.
+- **Terrain:** Flat terrain with a mountainous region where the station is situated, featuring the same map texture as the previous version.
+- **Specular Map:** Terrain includes a specular map, with water being reflective.
+- **Camera:** Positioned in the drone launch station, facing the city.
+- **Drone Control:** Drones can ascend and descend using designated keys.
+- **Drone Destruction:** Drones are destroyed upon hitting the ground.
+- **Drone Model:** Loaded as a 3D model for a more realistic representation.
+- **Drone Lighting:** Emitting green point light with limited range.
+- **Target Generation:** Targets are randomly generated at varying heights, loaded as arbitrary 3D models.
+- **Target Lighting:** Point lights with limited range and intensity on targets, extinguishing upon destruction.
+- **Low-flying Targets:** In addition to regular targets, there are low-flying targets with different colors, moving at a slower speed.
+- **Night Scene:** Set in a nighttime environment with subtle directional light.
+- **Cloud Layer:** Semi-transparent clouds above the terrain.
+- **City Spotlight:** At least one strong spotlight in the city center, changing direction over time.
+
+### Map Indicators
+
+- The height of drones and targets affects the size of their indicators on the map. Higher entities have larger indicators.
+
+## Instructions
+
+- **Drone Control:** Use designated keys to ascend and descend.
+- **Drone Destruction:** Press X to activate self-destruction or if the drone goes outside the map.
+- **Map Toggle:** Press 1 to hide the map, and 2 to bring it back.
+- **Student Information:** Displayed in one corner of the screen.
+
+Enjoy the 3D Anti-Air Defense Simulation!
+
+
 ## Tools Used
 
 - **Development Environment:** Visual Studio
 - **Libraries:** GLEW, GLFW
 
-## Screenshots
+## Screenshots - 2D
 ![window of app](https://cdn.discordapp.com/attachments/1151815941051650079/1180566208081313922/image2.png?ex=657de2f5&is=656b6df5&hm=22a6ed239319f9cf1e2f8b96f4447b3d5fe10b195a0ee15c3d98d912ddada35a&)
 ![window of app](https://cdn.discordapp.com/attachments/1151815941051650079/1180566208500748399/image1.png?ex=657de2f5&is=656b6df5&hm=e29a9990ee3a080bcd3ef6bec081b2779ac2c8ef8040b11e84323c56fef6fee6&)
+
+## Screenshot - 3D
+![window of app](https://cdn.discordapp.com/attachments/1151815941051650079/1199395430593740900/image.png?ex=65c2630a&is=65afee0a&hm=cc006c2b17fe6b63352f9194c7d4a65f679c215020c1960ac4a47efb5947edbd&)
