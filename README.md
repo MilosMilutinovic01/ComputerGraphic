@@ -60,8 +60,10 @@ Enjoy the 3D Anti-Air Defense Simulation!
 - **Libraries:** GLEW, GLFW
 
 ## Screenshots - 2D
-![window of app](https://cdn.discordapp.com/attachments/1151815941051650079/1180566208081313922/image2.png?ex=657de2f5&is=656b6df5&hm=22a6ed239319f9cf1e2f8b96f4447b3d5fe10b195a0ee15c3d98d912ddada35a&)
-![window of app](https://cdn.discordapp.com/attachments/1151815941051650079/1180566208500748399/image1.png?ex=657de2f5&is=656b6df5&hm=e29a9990ee3a080bcd3ef6bec081b2779ac2c8ef8040b11e84323c56fef6fee6&)
+![window of app](https://github.com/MilosMilutinovic01/ComputerGraphic/assets/116631195/f033a773-8a96-4d3b-9674-c0212dc3320b)
+)
+![window of app](https://github.com/MilosMilutinovic01/ComputerGraphic/assets/116631195/9d38788c-63db-487e-b52e-697ddbce12db)
+)
 
 ## Screenshot - 3D
-![window of app](https://cdn.discordapp.com/attachments/1151815941051650079/1199395430593740900/image.png?ex=65c2630a&is=65afee0a&hm=cc006c2b17fe6b63352f9194c7d4a65f679c215020c1960ac4a47efb5947edbd&)
+![3D project](https://github.com/MilosMilutinovic01/ComputerGraphic/assets/116631195/ca48f82b-26eb-4f31-a0c9-8c61614715b9)
